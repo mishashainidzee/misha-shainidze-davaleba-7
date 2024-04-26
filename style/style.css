@@ -1,0 +1,37 @@
+body{
+    background-color: #000080;
+}
+
+.night{
+    height: 80vh;
+    width: 150vh;
+    border: 1px solid black;
+    margin: 5rem auto;
+    background: url(../image/vaskvlaviani\ ca.png);
+    background-size: cover;
+    position: relative;
+    -webkit-box-shadow: 2px 1px 15px 3px #fff8af;
+    box-shadow: 2px 1px 15px 3px #fff8af;
+    overflow-x: hidden;
+}
+
+.car{
+    background: url(../image/car.png);
+    position: absolute;
+    bottom: 8%;
+    left: 24%;
+    animation: suspension 1s linear infinite;
+}
+
+
+.surface{
+    height: 140px;
+    width: 500%;
+    background: url(../image/palma.png);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-x;
+    animation: moveRight 9s linear infinite;
+}
